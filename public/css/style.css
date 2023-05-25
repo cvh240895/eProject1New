@@ -1,0 +1,91 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.cus{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.editpwd{
+    margin : auto;
+    width: 100%;
+    height: auto;
+    border : 1px solid red;
+}
+
+.editpn{
+    margin : auto;
+    width: 100%;
+    height: auto;
+    border : 1px solid red;
+}
+
+.editemail{
+    margin : auto;
+    width: 100%;
+    height: auto;
+    border : 1px solid red;
+}
+
+.fullsite{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin : auto;
+    height : auto;
+}
+
+.site_header{
+    width: 100%;
+    height : 150px;
+    background-color: aquamarine;
+    border : 1px solid black;
+}
+
+.site_body{
+    width: 100%;
+    height: auto;
+    border : 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.site_sidebar{
+    width: 30%;
+    height : auto;
+    background-color : grey;
+    color : red;
+    border: 1px solid black;
+}
+
+.site_content{
+    width: 70%;
+    height: auto;
+    border : 1px solid black
+}
+
+.site_footer{
+    width: 100%;
+    height : 150px;
+    border: 1px solid black;
+}
+
+.site_result{
+    width: 100%;
+    height : 200px;
+}
+
+.site_login{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-top: 400px;
+}
